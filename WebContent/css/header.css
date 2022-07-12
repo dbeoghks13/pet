@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+* {
+	padding: 0;
+	margin: 0 auto;
+}
+a { text-decoration: none;}
+header {
+	background-color: #white;
+	font-size: 10pt;
+}
+header a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+header li {
+	list-style: none;
+}
+
+header .gnb {
+	width: 100%;
+	background-color: #black;
+}
+
+header .gnb ul {
+	overflow: hidden;
+	width: 700px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+
+header .gnb ul li {
+	float: right;
+	margin-right: 30px;
+}
+
+header .gnb a {
+	color: #white;
+	font-size: 0.9em;
+	display: block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+header .logo {
+	width: 120px;
+	text-align: center;
+	margin: 20px auto;
+	font-size: 2em;
+	cursor: pointer;
+	color: #eb5df5;
+}
+
+header .lnb {
+	width: 100%;
+	height: 40px;
+	border-top: 1px dashed white;
+}
+
+header .lnb ul {
+	overflow: hidden;
+	width: 1300px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header .lnb ul>li {
+	margin: 5px;
+	float: left;
+	padding: 5px;
+	line-height: 25px;
+	padding-left: 170px;
+	/* border-bottom: 3px solid #52053b; */
+}
+
+header .lnb li a {
+	color: black;
+	border-bottom: 3px solid #52053b;
+}
+
+header .lnb li {
+	color: black;
+}
+
+header .lnb ul li .subMenu {
+	display: none;
+}
+
+header .lnb ul li:hover .subMenu {
+	display: block;
+	margin: 10px 0 0 0;
+}
